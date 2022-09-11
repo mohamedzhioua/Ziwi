@@ -1,9 +1,15 @@
 # MERN-Stack-CRUD_Authentification_Authorization
+
 #MERN-Stack-CRUD_Authentification_Authorization  uses the following tech stack:
+
 -Mongodb
+
 -Express
+
 -React
+
 -Nodejs
+
 -Mongoose
 
 
@@ -33,10 +39,16 @@ New features
 #MERN-Stack-CRUD_Authentification_Authorization  has two nodemodules folders to populate In the project directory:
 
 $ npm
+
 $ cd client 
+
 $ npm i
+
 $ npm run start
+
 $ cd server 
+
 $ npm i
+
 $ npm run start:dev
 
