@@ -47,7 +47,8 @@ const Delete = (id__)=>{
      axios.delete(`/employees/${id__}`)
      .then(Response=>{
         alert(Response.data.message)
-  
+        window.location.reload()
+
      })
    }
 }
