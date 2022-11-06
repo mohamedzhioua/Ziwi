@@ -11,9 +11,23 @@
 
 -Mongoose
 
-## Installation :
--Clone or download the repository
+## Installation & Usage:
+# MERN-Stack-CRUD_Authentification_Authorization has two nodemodules folders to populate In the project directory:
 
+-Clone or download the repository
+```bash
+$ cd client
+
+$ npm install
+
+$ npm run start
+
+$ cd server
+
+$ npm install
+
+$ npm run start:dev
+```
 -In the .env file of the main folder:
 
 -Create a Mongodb database cluster at https://www.mongodb.com/
@@ -28,24 +42,6 @@
 
 -Change the SECRET_jwt_code *this is used to encode the JSON Web Token
 
-## Usage
-# MERN-Stack-CRUD_Authentification_Authorization has two nodemodules folders to populate In the project directory:
-
-After installing the required packages in the Installation step you can run the local development setup
-
-$ npm
-
-$ cd client
-
-$ npm i
-
-$ npm run start
-
-$ cd server
-
-$ npm i
-
-$ npm run start:dev
 
 ## Todos :
 
