@@ -1,5 +1,5 @@
-MERN-Stack-CRUD_Authentification_Authorization
-#MERN-Stack-CRUD_Authentification_Authorization uses the following tech stack:
+# MERN-Stack-CRUD_Authentification_Authorization
+# MERN-Stack-CRUD_Authentification_Authorization uses the following tech stack:
 
 -Mongodb
 
@@ -11,15 +11,8 @@ MERN-Stack-CRUD_Authentification_Authorization
 
 -Mongoose
 
-#Todos :
-
-keep working in securing routes for user..............
-
-Security settings
-
-New features
-
-#Installation : -Clone or download the repository
+## Installation :
+-Clone or download the repository
 
 -In the .env file of the main folder:
 
@@ -35,7 +28,10 @@ New features
 
 -Change the SECRET_jwt_code *this is used to encode the JSON Web Token
 
-#MERN-Stack-CRUD_Authentification_Authorization has two nodemodules folders to populate In the project directory:
+## Usage
+# MERN-Stack-CRUD_Authentification_Authorization has two nodemodules folders to populate In the project directory:
+
+After installing the required packages in the Installation step you can run the local development setup
 
 $ npm
 
@@ -50,3 +46,19 @@ $ cd server
 $ npm i
 
 $ npm run start:dev
+
+## Todos :
+
+keep working in securing routes for user..............
+
+Security settings
+
+New features
+
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+See anything else you'd like to add here? Please send a pull request as well!
+
