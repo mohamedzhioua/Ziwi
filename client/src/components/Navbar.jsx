@@ -10,7 +10,7 @@ function Navbar() {
                 <Link to="/Home">Home</Link>
 
 
-                <Link className='login' to="/login"> login / Register</Link>
+                {/* <Link className='login' to="/login"> login / Register</Link> */}
                 <Link className='logout' to="/logout"> logout</Link>
 
 
