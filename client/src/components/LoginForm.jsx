@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 function LoginForm() {
  
     const [form, setForm] = useState({})
-    const   [isConnected ,setIsConnected]=useState(false)
+    // const   [isConnected ,setIsConnected]=useState(false)
     const [errors, setErrors] = useState(false);
     const navigate = useNavigate();
 
@@ -24,8 +24,8 @@ function LoginForm() {
       axios.post("/login",form ,{withCredentials:true})
       .then(response => {
         alert(response.data.message)      
-          console.log(response.data)
-         setIsConnected(true)
+          console.log("response------>",response.data)
+        //  setIsConnected(true)
           navigate('/Home')
         })
         .catch(err=>setErrors(err.response.data))
