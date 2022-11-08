@@ -5,6 +5,7 @@ const UsersRoutes = require('./routes/users.route')
 const cookieParser = require('cookie-parser')
 const cors = require('cors')
 const verifyAuth = require('./middleware/verifyAuth')
+
 //load env variables
 require('dotenv').config()
 
