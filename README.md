@@ -1,5 +1,5 @@
-# MERN-Stack-CRUD_Authentification_Authorization
-# MERN-Stack-CRUD_Authentification_Authorization uses the following tech stack:
+# MERN-Stack-CRUD_Authentication_Authorization
+# MERN-Stack-CRUD_Authentication_Authorization uses the following tech stack:
 
 -Mongodb
 
@@ -12,7 +12,7 @@
 -Mongoose
 
 ## Installation & Usage:
-# MERN-Stack-CRUD_Authentification_Authorization has two nodemodules folders to populate In the project directory:
+# MERN-Stack-CRUD_Authentication_Authorization has two nodemodules folders to populate In the project directory:
 
 -Clone or download the repository
 ```bash
